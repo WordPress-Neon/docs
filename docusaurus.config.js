@@ -57,7 +57,7 @@ const config = {
         style: 'dark',
         links: [
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Bonnick.dev`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href="https://bonnick.dev" target="_blank">Bonnick.dev</a>`,
       },
       prism: {
         theme: lightCodeTheme,
