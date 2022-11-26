@@ -102,7 +102,7 @@ In your request you may overwrite the `messages` function of the `WPN\Http\Reque
 the message for the `required` rule on **all** fields. We are also overriding the `string` rule validation of the `author`
 field.
 
-:::info
+:::tip Get field name in validation message
 
 **%s** in validation rule messages will be converted to the fields name.
 

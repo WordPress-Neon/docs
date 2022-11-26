@@ -13,7 +13,7 @@ should register routes with `true` as the third parameter.
 Route::create('get_posts', GetPostsController::class, withoutNonce: true);
 ```
 
-:::info
+:::tip Sending Token
 
 If routes are protected by nonces then `_token` should be inside the request body with the response from `wp_create_nonce('theme-nonce')`
 
