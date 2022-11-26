@@ -51,7 +51,7 @@ class GetPostsRequest extends Request
     protected function rules(): array
     {
         return [
-            'post_id' => ['required', 'int'],
+            'post_id' => ['required', 'numeric'],
         ];
     }
 }
