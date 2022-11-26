@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## Introduction
 
-The SVGSupport plugin allows SVG's to be uploaded into the WordPress media library.
+The SVGSupport plugin allows SVGs to be uploaded into the WordPress media library.
 
 ## Enabling SVG Support
 
@@ -14,7 +14,7 @@ The SVGSupport plugin allows SVG's to be uploaded into the WordPress media libra
 <?php
 
 //highlight-next-line
-use WPN\Support\Plugins\SVGSupport;
+use WPN\Plugins\SVGSupport;
 
 return [
     'plugins' => [

@@ -38,9 +38,9 @@ namespace App;
 
 use WPN\App;
 use WPN\Providers\ServiceProvider;
-use WPN\Support\Assets\GoogleFont;
-use WPN\Support\Assets\Script;
-use WPN\Support\Assets\Style;
+use WPN\Assets\GoogleFont;
+use WPN\Assets\Script;
+use WPN\Assets\Style;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -71,9 +71,9 @@ some features that may not be required in some themes.
 ```php title="inc/config/app.php"
 <?php
 
-use WPN\Support\Plugins\Mailhog;
-use WPN\Support\Theme\FooterMenu;
-use WPN\Support\Theme\HeaderMenu;
+use WPN\Plugins\Mailhog;
+use WPN\Plugins\Theme\FooterMenu;
+use WPN\Plugins\Theme\HeaderMenu;
 
 return [
     'plugins'       => [

@@ -21,7 +21,7 @@ MailHog can be installed using Docker, by following the [Docker Support Guide](/
 <?php
 
 //highlight-next-line
-use WPN\Support\Plugins\Mailhog;
+use WPN\Plugins\Mailhog;
 
 return [
     'plugins' => [
