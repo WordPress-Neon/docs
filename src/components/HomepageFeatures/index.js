@@ -4,32 +4,28 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/logo.svg').default,
+    title: 'Lightweight',
+    Svg: require('@site/static/img/lightning.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/logo.svg').default,
+    title: 'Produces Easy to Read Code',
+    Svg: require('@site/static/img/book.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/logo.svg').default,
+    title: 'Made for Developers',
+    Svg: require('@site/static/img/code.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
       </>
     ),
   },
@@ -42,7 +38,7 @@ function Feature({Svg, title, description}) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <h3 className={styles.featureSvgTitle}>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
@@ -53,6 +49,11 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
+        <div className="row">
+          <div className="col col--12">
+            <h4 className={styles.title}>Why WPN<span>?</span></h4>
+          </div>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

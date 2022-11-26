@@ -4,10 +4,35 @@
   width: 100%;
   background-size: 100% auto;
   background: url('./waves-1.svg') no-repeat center bottom;
-  padding:8rem 0;
+  padding:6rem 0 12rem 0;
 }
 
 .featureSvg {
-  height: 200px;
-  width: 200px;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.featureSvgTitle {
+  font-size: 1rem;
+  color: #fff;
+}
+
+[data-theme='light'] .featureSvg{
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='light'] .featureSvgTitle {
+  color: var(--ifm-color-primary);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size:2rem;
+}
+
+.title span {
+  color: var(--ifm-color-primary);
 }

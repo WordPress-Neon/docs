@@ -35,3 +35,17 @@
 .buttons>a:hover>svg{
   transform:translateX(0.3rem);
 }
+
+.hero__subtitle {
+  font-size: 1.1rem;
+  max-width: 60%;
+  margin:0 auto 30px auto;
+}
+
+@media screen and (max-width: 996px) {
+
+  .hero__subtitle {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}

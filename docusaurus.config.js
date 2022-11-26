@@ -38,7 +38,7 @@ const config = {
         defaultMode: 'dark'
       },
       navbar: {
-        title: 'WordPress Neon Documentation',
+        title: 'WordPress Neon',
         logo: {
           alt: 'WordPress Neon Logo',
           src: 'img/logo.svg',
