@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WordPress Neon',
-  tagline: 'PHP package developer around WordPress core functions to modernise the way we build WordPress themes.\n' +
+  tagline: 'PHP package developed around WordPress core functions to modernise the way we build WordPress themes.\n' +
     'Provides APIs for all core functions, reducing development time and improves code readability.',
   url: 'https://wpn.bonnick.dev',
   baseUrl: '/',
