@@ -1,8 +1,10 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
   width: 100%;
+  background-size: 100% auto;
+  background: url('./waves-1.svg') no-repeat center bottom;
+  padding:8rem 0;
 }
 
 .featureSvg {

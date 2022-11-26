@@ -8,6 +8,11 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  color:#fff;
+}
+
+[data-theme='dark'] .heroBanner{
+  color:#fff;
 }
 
 @media screen and (max-width: 996px) {

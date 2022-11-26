@@ -7,7 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'WordPress Neon',
-  tagline: 'Thin wrapper around WordPress core functions to improve developer experience when developing themes and plugins',
+  tagline: 'PHP package developer around WordPress core functions to modernise the way we build WordPress themes.\n' +
+    'Provides APIs for all core functions, reducing development time and improves code readability.',
   url: 'https://wpn.bonnick.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -33,6 +34,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark'
+      },
       navbar: {
         title: 'WordPress Neon Documentation',
         logo: {

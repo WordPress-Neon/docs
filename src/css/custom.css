@@ -26,6 +26,11 @@
   --ifm-footer-color:#222;
 }
 
+[data-theme='dark'] .footer{
+  background: #1f2021;
+  color:#fff;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;

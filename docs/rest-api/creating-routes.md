@@ -47,7 +47,7 @@ RestApi::route( 'posts', 'GET', APIResponse::class, [
 Here is the example callback class that receives the WP_REST_Request object and returns the WP_Post object in a WP_REST_Response.
 
 ```php title="APIResponse.php"
-
+<?php
 namespace App\Http\Controllers;
 
 use WP_REST_Response;
