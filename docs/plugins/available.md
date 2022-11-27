@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+description: Services within the WordPress Neon framework and snippets of code that can be enabled and disabled depending on your requirements
+pagination_label: Optional Services
+pagination_prev: rest-api/creating-routes
 ---
 
 # Services

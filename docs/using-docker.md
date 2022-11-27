@@ -1,3 +1,8 @@
+---
+description: How to use WPN within a Docker container
+pagination_label: Docker Support
+---
+
 # Docker Support
 
 ## Introduction

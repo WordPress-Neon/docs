@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Service providers provide a way to execute code on application (WordPress) boot
 ---
 # Service Providers
 

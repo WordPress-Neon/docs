@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+description: AJAX routes within WPN can use WordPress' nonce functionality to protect a route
 ---
 
 # CSRF Protection

@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: PHP package developed around WordPress core functions to modernise the way we build WordPress themes. Provides APIs for all core functions, reducing development time and improves code readability.
+pagination_label: Introduction
 ---
 # Installation
 

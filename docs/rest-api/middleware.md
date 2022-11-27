@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: Middleware provides authentication to a given route and the authentication method will be executed on every request
 ---
 
 # Middleware

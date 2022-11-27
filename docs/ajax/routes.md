@@ -1,5 +1,7 @@
 ---
 sidebar_position: 1
+description: Registering ajax routes using WPN framework.
+pagination_label: AJAX
 ---
 
 # Overview

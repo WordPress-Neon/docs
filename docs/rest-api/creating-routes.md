@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+description: The REST API support within WordPress Neon provides a more MVC friendly implementation of WordPress REST API
+pagination_prev: ajax/routes
+pagination_label: REST API
 ---
 
 # Creating Routes

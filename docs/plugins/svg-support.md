@@ -1,5 +1,7 @@
 ---
 sidebar_position: 3
+description: The SVGSupport plugin allows SVGs to be uploaded into the WordPress media library
+pagination_next: null
 ---
 
 # SVG Support

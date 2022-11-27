@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+description: MailHog provides us with a way to test and develop emails during local development by catching all the emails sent by the application and sending them to the service installed using Docker
 ---
 
 # MailHog Support
