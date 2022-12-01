@@ -13,6 +13,7 @@ module.exports = {
     },
     'post-types',
     'caching',
+    'sidebars',
     {
       type:'category',
       label:'Ajax',
