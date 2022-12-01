@@ -5,7 +5,7 @@ pagination_label: Optional Services
 pagination_prev: rest-api/creating-routes
 ---
 
-# Services
+# Using Services
 
 ## Introduction
 
@@ -24,3 +24,4 @@ Services are registered during the applications' initialisation method called in
 
 * [Mailhog](mailhog)
 * [SVG Support](svg-support)
+* [Custom Taxonomy Widget](custom-taxonomy-widget)
