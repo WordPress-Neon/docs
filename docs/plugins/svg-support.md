@@ -12,7 +12,7 @@ The SVGSupport plugin allows SVGs to be uploaded into the WordPress media librar
 
 ## Enabling SVG Support
 
-```php title="inc/config/app.php"
+```php title="config.php"
 <?php
 
 //highlight-next-line

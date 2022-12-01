@@ -12,7 +12,7 @@ widget service adds a widget to allow your theme to display a listing of posts i
 
 ### Enabling the Service
 
-```php title="inc/config/app.php"
+```php title="config.php"
 <?php
 
 //highlight-next-line

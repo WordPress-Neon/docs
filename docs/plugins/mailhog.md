@@ -18,7 +18,7 @@ MailHog can be installed using Docker, by following the [Docker Support Guide](/
 
 ### Enabling MailHog Support
 
-```php title="inc/config/app.php"
+```php title="config.php"
 <?php
 
 //highlight-next-line
