@@ -33,7 +33,7 @@ As outlined in [WordPress' theme basics](https://developer.wordpress.org/themes/
 service provider should be placed in the `inc` directory of your theme root directory. Which should be included using 
 [PSR-4.](https://getcomposer.org/doc/01-basic-usage.md#autoloading)
 
-```php title="inc/AppServiceProvider.php"
+```php title="App/AppServiceProvider.php"
 <?php
 
 namespace App;
@@ -48,7 +48,7 @@ class AppServiceProvider extends ServiceProvider
 {
     protected function boot(App $app)
     {
-        $app->init(__DIR__.'/config/app.php');
+        $app->init(__DIR__.'/config.php');
 
         GoogleFont::load('lato', 'https://fonts.googleapis.com/css?family=Lato');
         
@@ -70,7 +70,7 @@ We also provide the Application with a route to our config file which we will cr
 The application's config file is used during the boot method of WordPress Neon to register its plugins and enable/disable 
 some features that may not be required in some themes.
 
-```php title="inc/config/app.php"
+```php title="app/config.php"
 <?php
 
 use WPN\Plugins\Mailhog;
