@@ -90,3 +90,12 @@ table th {
 p > code {
   color:var(--ifm-color-primary);
 }
+
+.markdown > h2 {
+  margin-top:3rem;
+  margin-bottom:0.75rem;
+}
+.markdown > h3{
+  margin-top:2.5rem;
+  margin-bottom:0.75rem;
+}
