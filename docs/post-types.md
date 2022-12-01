@@ -26,7 +26,7 @@ type you should flush permalinks yourself by simply saving permalink settings in
 
 Post types can be registered within a service provider. In this example we are using the `AppServiceProvider`.
 
-Calling the `register` method of the `WPN\Support\PostType` class will handle the post type registration with the given parameters.
+Calling the `register` method of the `WPN\PostType` class will handle the post type registration with the given parameters.
 Here we will create a post type called `product` *(names are slugified when creating the post type)* which supports 
 titles, content and featured images.
 
@@ -37,7 +37,7 @@ namespace App\Providers;
 
 use WPN\App;
 use WPN\Providers\ServiceProvider;
-use WPN\Support\PostType;
+use WPN\PostType;
 
 class AppServiceProvider extends ServiceProvider {
 	protected function boot( App $app ) {
@@ -68,7 +68,7 @@ namespace App\Providers;
 
 use WPN\App;
 use WPN\Providers\ServiceProvider;
-use WPN\Support\PostType;
+use WPN\PostType;
 
 class AppServiceProvider extends ServiceProvider {
 	protected function boot( App $app ) {
