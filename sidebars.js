@@ -14,6 +14,7 @@ module.exports = {
     'post-types',
     'caching',
     'sidebars',
+    'stringable',
     {
       type:'category',
       label:'Ajax',
