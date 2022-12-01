@@ -12,6 +12,7 @@ module.exports = {
       ],
     },
     'post-types',
+    'caching',
     {
       type:'category',
       label:'Ajax',
