@@ -136,13 +136,14 @@ class GetPostsRequest extends Request {
 
 ## Available Validation Methods
 
-- [required](/docs/ajax/validation#required)
-- [string](/docs/ajax/validation#string)
-- [email](/docs/ajax/validation#email)
-- [phone](/docs/ajax/validation#phone)
-- [bool](/docs/ajax/validation#bool)
-- [date](/docs/ajax/validation#date)
-- [numeric](/docs/ajax/validation#number)
+- [required](#required)
+- [string](#string)
+- [email](#email)
+- [phone](#phone)
+- [bool](#bool)
+- [date](#date)
+- [numeric](#number)
+- [array](#array)
 
 ### Required
 
@@ -174,3 +175,7 @@ The field under validation must be a valid, non-relative date according to the `
 ### Numeric
 
 The field under validation must be `numeric`.
+
+### Array
+
+The field under validation must be an `array`.
